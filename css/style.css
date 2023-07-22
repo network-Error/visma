@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-.header .container .nav {
+.nav {
   padding: 40px 0;
   align-items: center;
   justify-content: space-between;
