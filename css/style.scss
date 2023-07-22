@@ -1,6 +1,16 @@
+// Variables
+$purple: #3D348B;
+$black: #333333;
+$white: #FFFFFF;
+$blue: #5DB7DE;
+
+$fw-400: 400;
+$fw-700: 700;
+
+// Base settings
 body {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: $fw-400;
 }
 
 li {
@@ -11,6 +21,7 @@ a {
   text-decoration: none;
 }
 
+// Styles
 .header .container .nav {
   padding: 40px 0;
   align-items: center;
@@ -25,7 +36,7 @@ a {
 }
 
 .nav__item-link {
-  color: #333333;
+  color: $black;
   line-height: 140%;
 }
 
@@ -37,7 +48,7 @@ a {
 .search-input {
   width: 150px;
   border: none;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid $black;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -53,12 +64,13 @@ a {
 .language {
   border: none;
   background-color: inherit;
-  font-weight: 700;
+  font-weight: $fw-700;
   line-height: 140%;
 }
 
+// First Screen
 .visma {
-  background-image: url("../img/bg.jpg");
+  background-image: url('../img/bg.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 750px;
@@ -69,24 +81,24 @@ a {
 }
 
 .visma__header {
-  font-weight: 700;
+  font-weight: $fw-700;
   line-height: 140%;
   font-size: 50px;
-  color: #FFFFFF;
+  color: $white;
   margin-bottom: 40px;
 }
 
 .visma__sub-header {
   line-height: 140%;
-  color: #FFFFFF;
+  color: $white;
   margin-bottom: 60px;
   max-width: 322px;
 }
 
 .visma__about {
   text-transform: uppercase;
-  color: #FFFFFF;
-  font-weight: 700;
+  color: $white;
+  font-weight: $fw-700;
   display: flex;
   gap: 15px;
   align-items: center;
@@ -99,27 +111,27 @@ a {
 }
 
 .visma__info-items {
-  background-color: #5DB7DE;
+  background-color: $blue;
   border-radius: 20px;
   padding: 30px;
   width: 306px;
 }
 
 .visma__info-items-header {
-  font-weight: 700;
+  font-weight: $fw-700;
   font-size: 13px;
   line-height: 140%;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: $white;
   margin: 0;
   margin-bottom: 118px;
 }
 
 .visma__info-items-text {
   font-size: 19px;
-  font-weight: 700;
+  font-weight: $fw-700;
   line-height: 140%;
-  color: #FFFFFF;
+  color: $white;
   margin: 0;
 }
 
@@ -133,10 +145,9 @@ a {
     font-size: 16px;
   }
 }
+
 @media (max-width: 1199px) {
   .visma__info-items-text {
     font-size: 15px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
