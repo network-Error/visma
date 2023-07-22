@@ -77,8 +77,12 @@ a {
   height: 750px;
 }
 
-.container .row {
+.visma .container .row {
   padding-top: 113px;
+}
+
+.visma .container .row .visma__info .row {
+  padding: 0;
 }
 
 .visma__header {
